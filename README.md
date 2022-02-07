@@ -9,3 +9,7 @@ CURL: ``curl -L -4 ipapi.de``
 ## ipv6
 URL: ``https://ip6.ipapi.de``  
 CURL: ``curl -L -6 ipapi.de``
+
+## autodetect
+URL: ``https://ipapi.de``  
+CURL: ``curl -L ipapi.de``
