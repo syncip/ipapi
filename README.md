@@ -1,6 +1,6 @@
 # ipapi.de
-Information about ipapi.de Service.
-Al little service to check your public ip, for IPv4 and IPv6.
+Information about ipapi.de Service.  
+A little service to check your public ip, for IPv4 and IPv6.
 
 ## ipv4
 URL: ``https://ip4.ipapi.de``  
