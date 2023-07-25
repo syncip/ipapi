@@ -1,5 +1,8 @@
 <?php
 
+// Turn off all error reporting
+error_reporting(0);
+
 $domain = $_GET['domain'];
 $record_type = $_GET['type'];
 
