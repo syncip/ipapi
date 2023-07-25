@@ -4,8 +4,13 @@ $domain = $_GET['domain'];
 $record_type = $_GET['type'];
 
 // DNS Name Server
-// ns1.ipv64.net, ns2.ipv64.net
-$authns = array('159.69.110.93', '167.235.231.182');
+// ns1, ns2
+/*
+authns = array('159.69.110.93', '167.235.231.182');
+*/
+
+// use only ns1 because of the update delay from ns2
+$authns = array('159.69.110.93');
 
 // DNS abfrage nur wenn Domain gegeben ist
 if(isset($domain)){
