@@ -48,3 +48,11 @@ $stack = json_encode($stack, JSON_PRETTY_PRINT);
 echo "<pre>".$stack."<pre/>";
 
 ?>
+
+
+<html>
+    <head>
+    <meta http-equiv="refresh" content="10" >
+    </head>
+</html>
+
